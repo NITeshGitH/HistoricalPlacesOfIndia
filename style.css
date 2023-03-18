@@ -1,0 +1,97 @@
+html,body{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+}
+.colored-section {
+    background-color: #E9A178;
+    color: #F1DEC9;
+}
+.greyish-section {
+    background-color: #F1DEC9;
+    padding: 2%;
+    color: #8D7B68;
+}
+.row {
+    display: flex;
+    
+}
+.column-half {
+    flex: 50%;
+}
+.map {
+    height: 90%;
+}
+
+.big-heading {
+    font-size: 3.25rem;
+    font-weight: bold;
+    padding-left: 30%;
+    line-height: 1.5;
+    text-align: left;
+}
+.greyish-heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.navbar-brand {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-family: 'Outfit', sans-serif;
+}
+
+.greyish-text {
+    padding-top: 3.5%;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+.greyish-image {
+    height: 300px;
+    width: 50%;
+    border: 10px solid #8D7B68;
+}
+
+.container-fluid{
+    padding: 2.5% 15%;
+}
+
+@media (max-width : 1028px) {
+    .big-heading {
+        padding: 0% 15% 0% 10% ;
+        font-size: 1.75rem;
+    }
+    .container-fluid {
+        padding: 3.5% 10%;
+    }
+    .map {
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 1rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+    .greyish-heading {
+        font-size: 1.75rem;
+    }
+    .greyish-text {
+        font-size: 0.75rem;
+    }
+    .greyish-image {
+        height: 100px;
+        border: 5px solid #8D7B68;
+    }
+    #footer {
+        font-size: 0.65rem;
+    }
+
+}
